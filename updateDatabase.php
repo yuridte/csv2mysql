@@ -1,4 +1,4 @@
 <?php
-require_once("databaseInit.php");
+require_once("init.php");
 
 ?>
