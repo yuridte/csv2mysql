@@ -1,6 +1,6 @@
 <?php
-$dbHost = "";
-$dbName = "";
-$dbUser = "";
+$dbHost = "localhost";
+$dbName = "csv2mysql";
+$dbUser = "root";
 $dbPassword = "";
 ?>
