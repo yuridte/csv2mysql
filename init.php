@@ -1,9 +1,14 @@
 <?php
 require_once("config/databaseConfig.php");
 
+//starting database variable
+$db_con = null;
+
 try {
+    //open connection
     $db_con = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPassword);
 } catch (PDOException $e) {
+    //database connection errors
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
