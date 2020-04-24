@@ -7,9 +7,10 @@ Create a folder named "config" with a "databaseConfig.php" file inside and set t
 
 ```php
 <?php
-$dbHost = "your-host";
-$dbName = "your-db-name";
-$dbUser = "your-user";
-$dbPassword = "your-password";
+$cfgHost = "your-host";
+$cfgPort = "mysql-port-number"; //Most commom is 3306
+$cfgDbName = "your-db-name";
+$cfgUser = "your-user";
+$cfgPassword = "your-password";
 ?>
 ```
