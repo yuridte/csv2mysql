@@ -10,7 +10,7 @@
 
 	<form action="updateDatabase.php" method="post" enctype="multipart/form-data">
 		<label for="csvFile">Import csv file clicking below</label> <br>
-		<input type="file" id="csvFile" name="csvFile"> <br> <br>
+		<input type="file" id="csvFile" name="csvFile" accept=".csv"> <br> <br>
 		<input type="submit" value="Send">
 	</form>
 </body>
