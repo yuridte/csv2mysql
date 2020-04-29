@@ -1,6 +1,9 @@
 <?php
+//dependencies
 require_once("config/databaseConfig.php");
 require_once("class/db-class.php");
+
+//open connection
 $db = new DB($cfgHost, $cfgPort, $cfgDbName, $cfgUser, $cfgPassword);
 $dbConn = $db->getConnection();
 ?>

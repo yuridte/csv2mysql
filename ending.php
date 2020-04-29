@@ -3,5 +3,6 @@
 
 <?php
 //closing database connection
-$db_con = null;
+$db = null;
+$dbConn = null;
 ?>
